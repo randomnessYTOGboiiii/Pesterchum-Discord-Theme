@@ -52,7 +52,6 @@
 	--background-message-hover: rgba(6,6,7,0.06);
 }
 
-/* Home Icon */
 .homeIcon-r0w4ny {
     background: url(https://i.imgur.com/yeZEnGG.png) center/contain no-repeat;
 	width: 35px;
@@ -109,6 +108,12 @@
  .hiddenMembers-8kpYM0, .membersWrap-3NUR2t{
 	background-color: var(--p-primary);
 }
+
+/* user activity (like Listening to Spotify etc.) */
+.activity-1-H7Zd {
+	color: white;
+}
+
 /*Top Bar*/
  .withFrame-2dL45i, .bg-1QIAus{
 	background-color: var(--p-primary);
@@ -327,20 +332,14 @@
 	border-color: var(--p-secondary);
 }
 
-/* certain text changed to white for readability */
 h1.name-3Uvkvr, div.name-2m3Cms, svg.button-2BMPJJ, svg.linkButtonIcon-7rsZcu {
 	color: white;
 }
 
-/* dark mode typing indicator fix */
-span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
-	color: black;
-}
-
-/* this explodes the Explore Public Servers button because i hate it */
-/* remove the below part if you like that button */
 div.circleIconButton-1VxDrg[aria-label="Explore Public Servers"] {
 	display: none;
 }
 
-
+span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
+	color: black;
+}
