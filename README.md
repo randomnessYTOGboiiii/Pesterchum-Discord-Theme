@@ -1,9 +1,9 @@
 
-# Pestercord (4/13/2022 Edition)
+# Pestercord (4/13/2022 Edition) ✨
 
 This is a **[BetterDiscord](https://betterdiscord.app/)** theme that emulates the look and feel of the chat client, **[Pesterchum](https://mspaintadventures.fandom.com/wiki/Chat_client#Pesterchum)**, shown within the webcomic **[Homestuck](https://www.homestuck.com/)**. Supports both Dark and Light theme (Light Mode is preferred).
 
-## How does it work?
+## How does it work? 🔧
 Through a rather convoluted and arcane process, you must first install BetterDiscord.
 1.  Download the installer [here](https://github.com/BetterDiscord/Installer/releases/latest)  and open it.
 2.  Agree to the license.
@@ -22,7 +22,7 @@ Then, an additional hoop must be jumped through. But only one.
  7. Extract the contents to that folder and delete the original .zip file. 
  8. Pester your friends. 8e the 8itch.
 
-## What's new? 
+## What's new? 🔍
 Frankly, very little from the original master. A few small fixes have been implemented, including:
 
  - **General compatibility with BetterDiscord version 1.5.2.** It is unknown if upcoming updates may break the theme again, but it is unlikely this will happen for a while (or long enough for you to not have to worry about coming back here for a fix).
