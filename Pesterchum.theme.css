@@ -141,7 +141,8 @@
 	color: white;
 }
  .container-ZMc96U.themed-Hp1KC_ {
-	background-color: var(--p-secondary);
+	background-color: var(--p-primary);
+	border-bottom: 2px !important;
 }
 .theme-dark .children-3xh0VB:after,.theme-light .children-3xh0VB:after {
 	background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,var(--message-background-alt));
@@ -412,4 +413,32 @@ h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT:after {
 	position: absolute;
 	left: 12px;
 	letter-spacing: .05em;
+}
+
+/* top bar changes */
+.item-3mHhwr {
+	border-radius: 0 !important;
+	background-color: var(--p-teriary) !important;
+	color: black !important;
+	border: .3vh solid;
+	border-color: var(--p-secondary);
+}
+
+.iconWrapper-2awDjA > svg, .iconWrapper-2awDjA > svg > foreignObject > svg {
+	color: black !important;
+}
+
+.iconWrapper-2awDjA > svg:hover, .iconWrapper-2awDjA:hover > svg > foreignObject > svg {
+	color: rgba(0, 0, 0, 0.7) !important;
+}
+
+div.status-12NUUC > svg {
+	background-color: white;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+
+div.status-12NUUC > svg > rect {
+	margin: 0 auto;
 }
