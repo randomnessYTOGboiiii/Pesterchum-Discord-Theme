@@ -480,6 +480,10 @@ div.status-12NUUC > svg > rect {
 	margin-right: 4px;
 }
 
+.panels-3wFtMD[aria-label="User area"] > .wrapper-3Hk9OB > .container-1zzFcN > .connection-3k9QeF > .inner-llGtyq > div > a > .size12-oc4dx4.subtext-2HDqJ7.channel-3prF2u {
+	color: #4F5660;
+}
+
 /* screenshare colour fixes */
 .headerWrapper-1ULEPv > .theme-dark.container-ZMc96U.transparent-1lUmft > .children-3xh0VB > .iconWrapper-2awDjA > svg {
 	color: white !important;
@@ -538,4 +542,12 @@ div.status-12NUUC > svg > rect {
 	border-radius: 0;
 	border: .4vh solid;
 	border-color: var(--p-secondary) !important;
+}
+
+.username-3JLfHz.headerTagUsernameNoNickname-1TjuLc.headerTagUsernameBase-XYisdh, .customStatusText-3wj79x, .userInfoBody-1zgAd0.markup-eYLPri.clamped-2ZePhX {
+	color: black;
+}
+
+.headerTagDiscriminatorNoNickname-dfcvHa.discrimBase-1VOoau, .userInfoTitle-39qq0Y.base-21yXnu.size12-oc4dx4.muted-eZM05q.uppercase-2unHJn {
+	color: #4F5660;
 }
