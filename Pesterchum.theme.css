@@ -461,6 +461,15 @@ div.status-12NUUC > svg > rect {
 	color: black;
 }
 
+.akaBadge-3i7V3p {
+	background-color: black;
+	color: white;
+}
+
+.nicknames-10Sg6e.overflow-1wOqNV {
+	color: black;
+}
+
 /* text box background */
 .channelTextArea-1FufC0, .scrollableContainer-15eg7h {
 	background-color: var(--background-primary) !important;
@@ -523,6 +532,7 @@ div.status-12NUUC > svg > rect {
 	background-color: var(--background-primary) !important;
 	border: .4vh solid;
 	border-color: var(--p-secondary) !important;
+	padding: 4px;
 }
 
 .textarea-_59yqs {
