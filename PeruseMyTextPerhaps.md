@@ -10,8 +10,8 @@ Through a rather convoluted and arcane process, you must first install BetterDis
 1.  Download the installer [here](https://github.com/BetterDiscord/Installer/releases/latest)  and open it.
 2.  Agree to the license.
 3.  Select "Install BetterDiscord" from the list of options.
-4.  Choose your current discord build.
-5.  Click the "Install" button, and discord should restart with BetterDiscord installed.
+4.  Choose your current Discord build.
+5.  Click the "Install" button, and Discord should restart with BetterDiscord installed.
 
 Then, an additional hoop must be jumped through. But only one.
 
