@@ -529,10 +529,19 @@ div.status-12NUUC > svg > rect {
 }
 
 .bodyInnerWrapper-2bQs1k {
-	background-color: var(--background-primary) !important;
+	background-color: white !important;
 	border: .4vh solid;
 	border-color: var(--p-secondary) !important;
 	padding: 4px;
+}
+
+.bodyInnerWrapper-2bQs1k > .bodyTitle-2Az3VQ {
+	color: #4F5660;
+}
+
+.bodyInnerWrapper-2bQs1k > .root-jbEB5E > .role-2TIOKu {
+	color: black;
+	background-color: #EBEDEF;
 }
 
 .textarea-_59yqs {
@@ -563,12 +572,36 @@ div.status-12NUUC > svg > rect {
 	border-color: var(--p-secondary) !important;
 }
 
+.bodyInnerWrapper-2bQs1k > .note-Go5ZP2 > textarea {
+	color: #4F5660;
+}
+
 .username-3JLfHz.headerTagUsernameNoNickname-1TjuLc.headerTagUsernameBase-XYisdh, .customStatusText-3wj79x, .userInfoBody-1zgAd0.markup-eYLPri.clamped-2ZePhX {
 	color: black;
 }
 
 .headerTagDiscriminatorNoNickname-dfcvHa.discrimBase-1VOoau, .userInfoTitle-39qq0Y.base-21yXnu.size12-oc4dx4.muted-eZM05q.uppercase-2unHJn {
 	color: #4F5660;
+}
+
+.userPopout-2j1gM4 > .headerTop-3GPUSF > .headerText-1-WmDq > .nickname-t08Mck {
+	color: black;
+}
+
+.userPopout-2j1gM4 > .headerTop-3GPUSF > .headerText-1-WmDq > .headerTagWithNickname-1U8zZH > span {
+	color: #4F5660;
+}
+
+.activityUserPopout-2MzGCj.activity-1gTu-L.newPopoutActivityStyles > div > h3 > div {
+	color: #4F5660;
+}
+
+.activityUserPopout-2MzGCj.activity-1gTu-L.newPopoutActivityStyles > div > div > span {
+	color: black !important;
+}
+
+.activityUserPopout-2MzGCj.activity-1gTu-L.newPopoutActivityStyles > div > div > h3 > span {
+	color: black !important;
 }
 
 /* expanded profile thing like the one when you click on the pfp */
