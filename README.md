@@ -40,7 +40,7 @@ Frankly, very little from the original master. A few small fixes have been imple
 	 - The typing indicator now appears in black for both Light Mode and Dark Mode. Because white on yellow is fairly hard to read.
  - **Some extra goodies.** These weren't part of the original master, but we think you'll like them.
 	 - The small pop-up profile that appears when you click on someone's name or user icon is now decked out in that tasty Pesterchum mustard yellow. The same goes for the expanded profile.
-	 - Most instances of the word "User" or "Friend" has been changed to "Chum."
+	 - Most instances of the word "User" or "Friend" have been changed to "Chum."
 	 - "Direct Messages" has been changed to "Chumroll."
 	 - All buttons on the Friends page and the tabs on the expanded user profile now emulate the buttons from the original Pesterchum 6.0 client.
 	 - On the expanded user profile, "Send Message" now reads "Pester."
