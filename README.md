@@ -38,7 +38,7 @@ Frankly, very little from the original master. A few small fixes have been imple
 	 - Widened the navigation side of the window (where direct messages and channels sit).
 	 - The typing indicator now appears in black for both Light Mode and Dark Mode. Because white on yellow is fairly hard to read.
  - **Some extra goodies.** These weren't part of the original master, but we think you'll like them.
-	 - The small pop-up profile that appears when you hover over someone's name is now decked out in that tasty Pesterchum mustard yellow.
+	 - The small pop-up profile that appears when you hover over someone's name is now decked out in that tasty Pesterchum mustard.
 	 - "Friends" above "Nitro" now reads "Chums."
 	 - The "Add Friend" button on the Friends page now reads "Add Chum."
 	 - "Direct Messages" has been changed to "Chumroll."
@@ -49,4 +49,5 @@ Frankly, very little from the original master. A few small fixes have been imple
 
 ![Light Mode](https://i.imgur.com/kLDvN2r.png)![Dark Mode](https://i.imgur.com/hrZquSx.png)
 ![enter image description here](https://i.imgur.com/S6qm6AX.png)
+
 Images are slightly out of date. "Friends" in the last screenshot has been fixed to read "Chums."
