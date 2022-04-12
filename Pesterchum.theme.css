@@ -433,7 +433,7 @@ h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT:after {
 }
 
 div.status-12NUUC > svg {
-	background-color: white;
+	background-color: black;
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
@@ -441,4 +441,13 @@ div.status-12NUUC > svg {
 
 div.status-12NUUC > svg > rect {
 	margin: 0 auto;
+}
+
+h3.title-17SveM {
+	color: black;
+}
+
+/* text box background */
+.channelTextArea-1FufC0, .scrollableContainer-15eg7h {
+	background-color: var(--background-primary) !important;
 }
