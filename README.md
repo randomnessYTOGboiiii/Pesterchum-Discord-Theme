@@ -14,8 +14,8 @@ Through a rather convoluted and arcane process, you must first install BetterDis
 
 Then, an additional hoop must be jumped through. But only one.
 
- 1. Near the top of this page, click **Code**.
- 2.  Click the "Download as Zip" button to do exactly that. Download it anywhere you will remember to fetch it later.
+ 1. Near the top of this page, click "Code".
+ 2.  Click the "Download Zip" button to do exactly that. Download it anywhere you will remember to fetch it later.
  3. Ensure you have BetterDiscord installed. If you don't, refer to the first step of the first sequence.
  4. Open your Discord user settings. Near the very bottom, there should be a "Themes" tab. Usually above "Change Log" and "HypeSquad." Click it.
  5. At the top of the themes page, click the "Open themes folder" button.
