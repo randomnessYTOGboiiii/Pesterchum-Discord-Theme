@@ -484,6 +484,15 @@ div.status-12NUUC > svg > rect {
 	color: #4F5660;
 }
 
+.panels-3wFtMD[aria-label="User area"] > .wrapper-3Hk9OB > .container-1zzFcN > .actionButtons-2vEOUh > .button-1EGGcP {
+	background-color: var(--p-teriary);
+	border-radius: 0;
+	border: .4vh solid;
+	border-color: var(--p-secondary) !important;
+	height: 36px;
+	color: black;
+}
+
 /* screenshare colour fixes */
 .headerWrapper-1ULEPv > .theme-dark.container-ZMc96U.transparent-1lUmft > .children-3xh0VB > .iconWrapper-2awDjA > svg {
 	color: white !important;
