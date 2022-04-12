@@ -34,6 +34,7 @@
     --alt-modifier-selected: rgba(79,84,92,0.32);
     --alt-modifier-accent: hsla(0,0%,100%,0.06);
 
+	--on-black-color: rgba(40, 40, 40, 1);
 }
 .theme-dark {
 	--background-primary: black;
@@ -42,6 +43,8 @@
 	--background-mentioned-hover: rgba(250,166,26,0.18);
 	--background-message-hover: rgba(216,216,220,0.08);
 	--scrollbar-auto-thumb: #40444A;
+	
+	--server-icon-col: white;
 }
 .theme-light {
 	--channeltextarea-background: #fff;
@@ -50,8 +53,11 @@
     --background-modifier-active: rgba(116,127,141,0.18);
     --background-modifier-selected: rgba(116,127,141,0.27);
 	--background-message-hover: rgba(6,6,7,0.06);
+	
+	--server-icon-col: black;
 }
 
+/* home icon */
 .homeIcon-r0w4ny {
     background: url(https://i.imgur.com/yeZEnGG.png) center/contain no-repeat;
 	width: 35px;
@@ -60,7 +66,7 @@
 }
 
 .childWrapper-1j_1ub {
-	background-color: white !important;
+	background-color: var(--background-primary) !important;
 }
 
 /*Messages*/
@@ -336,14 +342,74 @@
 	border-color: var(--p-secondary);
 }
 
+/* certain text changed to white for readability */
 h1.name-3Uvkvr, div.name-2m3Cms, svg.button-2BMPJJ, svg.linkButtonIcon-7rsZcu {
 	color: white;
 }
 
+/* fixes dark mode typing indicator */
+span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
+	color: black;
+}
+
+/* gets rid of the explore public servers button (you can put this back if you like it) */
 div.circleIconButton-1VxDrg[aria-label="Explore Public Servers"] {
 	display: none;
 }
 
-span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
-	color: black;
+/* smooth transition for background color */
+.interactive-1vLZ_I, .content-1gYQeQ {
+	transition: background-color 0.08s;
+}
+
+/* 
+  this stuff is like the server name header and dm list backgrounds. i don't remember what's what oops 
+  anyway it makes it easier to see :D
+*/
+.interactive-1vLZ_I:hover {
+	background-color: var(--on-black-color);
+}
+
+.header-3OsQeK:hover {
+	background-color: var(--on-black-color) !important;
+}
+
+.acronym-2zrAHN {
+	color: var(--server-icon-col) !important;
+}
+
+.content-1gYQeQ:hover {
+	background-color: var(--on-black-color) !important;
+}
+
+/* friends -> chums! */
+div[aria-controls="add_friend-tab"]:after {
+	content: "Add Chum" !important;
+}
+
+div[aria-controls="add_friend-tab"] > span {
+	display: none;
+}
+
+a[href="/channels/@me"] > div > div > div > div {
+	display: none;
+}
+
+a[href="/channels/@me"] > div > div > div:after {
+	visibility: visible;
+	content: 'Chums';
+	color: white;
+}
+
+/* DIRECT MESSAGES -> CHUMROLL */
+h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT {
+	visibility: hidden;
+}
+
+h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT:after {
+	visibility: visible;
+	content: 'Chumroll';
+	position: absolute;
+	left: 12px;
+	letter-spacing: .05em;
 }
