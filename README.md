@@ -1,5 +1,6 @@
 
 
+
 # Pestercord (4/13/2022 Edition) ✨
 
 This is a **[BetterDiscord](https://betterdiscord.app/)** theme that emulates the look and feel of the chat client, **[Pesterchum](https://mspaintadventures.fandom.com/wiki/Chat_client#Pesterchum)**, shown within the webcomic **[Homestuck](https://www.homestuck.com/)**. Supports both Dark and Light theme (Light Mode is preferred).
@@ -9,8 +10,8 @@ Through a rather convoluted and arcane process, you must first install BetterDis
 1.  Download the installer [here](https://github.com/BetterDiscord/Installer/releases/latest)  and open it.
 2.  Agree to the license.
 3.  Select "Install BetterDiscord" from the list of options.
-4.  Choose your current discord build.
-5.  Click the "Install" button, and discord should restart with BetterDiscord installed.
+4.  Choose your current Discord build.
+5.  Click the "Install" button, and Discord should restart with BetterDiscord installed.
 
 Then, an additional hoop must be jumped through. But only one.
 
@@ -32,10 +33,12 @@ Frankly, very little from the original master. A few small fixes have been imple
 	 - The window accent at the top left has been restored from "Discord" to "Pesterchum."
 	 - The text box has been made to match the chat background color.
 	 - Other under-the-hood fixes. We can't tell you what they are because this is supposed to be a cheeky changelog that doesn't really give you much more information to work with. And we're sticking to the bit.
- - **Two small improvements.** So small you might not notice them, but noticeable enough to make the experience just that little bit better.
-	 - Improved color clarity across multiple in-app labels and chat accents.
+ - **A few small improvements.** So small you might not notice them, but noticeable enough to make the experience just that little bit better.
+	 - Improved color clarity across multiple in-app labels and chat accents, including the call/screenshare UI elements.
+	 - Widened the navigation side of the window (where direct messages and channels sit).
 	 - The typing indicator now appears in black for both Light Mode and Dark Mode. Because white on yellow is fairly hard to read.
  - **Some extra goodies.** These weren't part of the original master, but we think you'll like them.
+	 - The small pop-up profile that appears when you hover over someone's name is now decked out in that tasty Pesterchum mustard.
 	 - "Friends" above "Nitro" now reads "Chums."
 	 - The "Add Friend" button on the Friends page now reads "Add Chum."
 	 - "Direct Messages" has been changed to "Chumroll."
@@ -46,3 +49,5 @@ Frankly, very little from the original master. A few small fixes have been imple
 
 ![Light Mode](https://i.imgur.com/kLDvN2r.png)![Dark Mode](https://i.imgur.com/hrZquSx.png)
 ![enter image description here](https://i.imgur.com/S6qm6AX.png)
+
+Images are slightly out of date. "Friends" in the last screenshot has been fixed to read "Chums."
