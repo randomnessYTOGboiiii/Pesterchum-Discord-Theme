@@ -1,6 +1,6 @@
 /**
  * @name Pesterchum Discord
- * @author Winter Clover#8124 + lumen#0376
+ * @author Winter Clover#8124 + lumen#0376 & reed
  * @version 0.6.0
  * @description Emulates the look and feel of the chat clients shown within the webcomic Homestuck. Supports only Light Mode at the moment.
 */
@@ -648,7 +648,57 @@ div.status-12NUUC > svg > rect {
 	padding: 6px;
 }
 
+.relationshipButtons-3ByBpj > .actionButton-iarQTd.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79 > div {
+	visibility: hidden;
+	width: 40px;
+}
+
+.relationshipButtons-3ByBpj > .actionButton-iarQTd.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-3y-Z79 > div:after {
+	visibility: visible;
+	content: "Pester";
+	position: absolute;
+	left: 10px;
+}
+
+.focusLock-2tveLW > .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 > .topSection-13QKHs > .tabBarContainer-sCZC4w > .tabBar-2hXqzU.top-K_jibn > .tabBarItem-30Te4-.item-3XjbnG.themed-2-lozF[aria-controls="user_info-tab"] {
+	visibility: hidden;
+	overflow: visible;
+}
+
+.focusLock-2tveLW > .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 > .topSection-13QKHs > .tabBarContainer-sCZC4w > .tabBar-2hXqzU.top-K_jibn > .tabBarItem-30Te4-.item-3XjbnG.themed-2-lozF[aria-controls="user_info-tab"]:after {
+	visibility: visible;
+	content: "Chum Info";
+	position: absolute;
+	left: 0;
+	background-color: var(--p-teriary);
+	border: .4vh solid;
+	border-color: var(--p-secondary) !important;
+	color: black;
+	padding: 4px 4px;
+}
+
+.focusLock-2tveLW > .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 > .topSection-13QKHs > .tabBarContainer-sCZC4w > .tabBar-2hXqzU.top-K_jibn > .tabBarItem-30Te4-.item-3XjbnG.themed-2-lozF[aria-controls="mutual_friends-tab"] {
+	visibility: hidden;
+	overflow: visible;
+}
+
+.focusLock-2tveLW > .root-8LYsGj.root-g14mjS.small-23Atuv.fullscreenOnMobile-ixj0e3 > .topSection-13QKHs > .tabBarContainer-sCZC4w > .tabBar-2hXqzU.top-K_jibn > .tabBarItem-30Te4-.item-3XjbnG.themed-2-lozF[aria-controls="mutual_friends-tab"]:after {
+	visibility: visible;
+	content: "Mutual Chums";
+	position: absolute;
+	left: 0;
+	background-color: var(--p-teriary);
+	border: .4vh solid;
+	border-color: var(--p-secondary) !important;
+	color: black;
+	padding: 4px 6px;
+}
+
 /* list */
 .sidebar-1tnWFu {
-	width: 280px;
+	width: 300px;
+}
+
+ul[aria-label="Direct Messages"] > li > div {
+	width: 257px;
 }
