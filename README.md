@@ -28,8 +28,8 @@ Frankly, very little from the original master. A few small fixes have been imple
 
  - **General compatibility with BetterDiscord version 1.5.2.** It is unknown if upcoming updates may break the theme again, but it is unlikely this will happen for a while (or long enough for you to not have to worry about coming back here for a fix).
 	 - The home/private and group chat icon has been restored to the Pesterchum logo. 
-	 - The hat background for Dark Mode restored to a sleek, sexy, oil-like black. 
-	 - The window accent at the top left restored from "Discord" to "Pesterchum."
+	 - The chat background for Dark Mode has been restored to a sleek, sexy, oil-like black. 
+	 - The window accent at the top left has been restored from "Discord" to "Pesterchum."
 	 - The text box has been made to match the chat background color.
 	 - Other under-the-hood fixes. We can't tell you what they are because this is supposed to be a cheeky changelog that doesn't really give you much more information to work with. And we're sticking to the bit.
  - **Two small improvements.** So small you might not notice them, but noticeable enough to make the experience just that little bit better.
