@@ -402,6 +402,17 @@ a[href="/channels/@me"] > div > div > div:after {
 	color: white;
 }
 
+h3.title-17SveM {
+	visibility: hidden;
+	width: 45px;
+}
+
+h3.title-17SveM:after {
+	visibility: visible;
+	content: 'Chums';
+	position: absolute;
+}
+
 /* DIRECT MESSAGES -> CHUMROLL */
 h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT {
 	visibility: hidden;
@@ -422,6 +433,7 @@ h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT:after {
 	color: black !important;
 	border: .3vh solid;
 	border-color: var(--p-secondary);
+	margin: 0 5px !important;
 }
 
 .iconWrapper-2awDjA > svg, .iconWrapper-2awDjA > svg > foreignObject > svg {
