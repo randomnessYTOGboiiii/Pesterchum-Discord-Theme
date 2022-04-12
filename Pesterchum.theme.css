@@ -422,6 +422,7 @@ h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT:after {
 	visibility: visible;
 	content: 'Chumroll';
 	position: absolute;
+	color: white;
 	left: 12px;
 	letter-spacing: .05em;
 }
@@ -462,4 +463,9 @@ h3.title-17SveM {
 /* text box background */
 .channelTextArea-1FufC0, .scrollableContainer-15eg7h {
 	background-color: var(--background-primary) !important;
+}
+
+/* x button to close dms and + button to start new dm, now white */
+.closeIcon-1NwtbI, .privateChannelRecipientsInviteButtonIcon-1ObKXK > polygon {
+	color: white !important;
 }
