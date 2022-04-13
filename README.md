@@ -2,6 +2,7 @@
 
 
 
+
 # Pestercord (4/13/2022 Edition) ✨
 
 This is a **[BetterDiscord](https://betterdiscord.app/)** theme that emulates the look and feel of the chat client, **[Pesterchum](https://mspaintadventures.fandom.com/wiki/Chat_client#Pesterchum)**, shown within the webcomic **[Homestuck](https://www.homestuck.com/story/25)**. Supports both Dark and Light theme (Light Mode is preferred).
@@ -48,7 +49,8 @@ Frankly, very little from the original master. A few small fixes have been imple
 
 ## Images
 
-![Light Mode](https://i.imgur.com/kLDvN2r.png)![Dark Mode](https://i.imgur.com/hrZquSx.png)
-![enter image description here](https://i.imgur.com/S6qm6AX.png)
-
-Images are slightly out of date. "Friends" in the last screenshot has been fixed to read "Chums."
+![Light Mode](https://i.imgur.com/TxwmnWw.png)![Dark Mode](https://i.imgur.com/RMHmsZF.png)
+![enter image description here](https://i.imgur.com/N6B4E5o.png)
+![enter image description here](https://i.imgur.com/uEOhbRd.png)
+![enter image description here](https://i.imgur.com/AcAf4N4.png)
+![enter image description here](https://i.imgur.com/Zu6E7ZD.png)
