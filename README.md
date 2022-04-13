@@ -3,6 +3,7 @@
 
 
 
+
 # Pestercord (4/13/2022 Edition) ✨
 
 This is a **[BetterDiscord](https://betterdiscord.app/)** theme that emulates the look and feel of the chat client, **[Pesterchum](https://mspaintadventures.fandom.com/wiki/Chat_client#Pesterchum)**, shown within the webcomic **[Homestuck](https://www.homestuck.com/story/25)**. Supports both Dark and Light theme (Light Mode is preferred).
@@ -23,7 +24,7 @@ Then, an additional hoop must be jumped through. But only one.
  4. Open your Discord user settings. Near the very bottom, there should be a "Themes" tab. Usually above "Change Log" and "HypeSquad." Click it.
  5. At the top of the themes page, click the "Open themes folder" button.
  6. Drag the .zip you download into the themes folder that opened. 
- 7. Extract the contents to that folder and delete the original .zip file. 
+ 7. Extract the contents to that folder and delete the original .zip file. ⚠ Make sure that everything inside the "Pesterchum-Discord-Theme-master" folder (the font folder, the .css file, etc.) **except for the folder itself** is in the themes folder. 
  8. Pester your friends. 8e the 8itch.
 
 ## What's new? 🔍
