@@ -382,6 +382,9 @@ div.circleIconButton-1VxDrg[aria-label="Explore Public Servers"] {
 .content-1gYQeQ:hover {
 	background-color: var(--on-black-color) !important;
 }
+.interactive-1vLZ_I.interactive-iyXY_x > a > div > div.content-66wMin > div.subText-3Sk0zy > .subtext-14b69p {
+	color: rgba(180, 180, 180, 1);
+}
 
 /* friends -> chums! */
 div[aria-controls="add_friend-tab"]:after {
