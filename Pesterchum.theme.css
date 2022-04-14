@@ -738,3 +738,12 @@ div.status-12NUUC > svg > rect {
 ul[aria-label="Direct Messages"] > li > div {
 	width: 257px;
 }
+
+/* game activity bottom left */
+.gameWrapper-2TFy7F.clickableGameWrapper-1xHQQL > .info-88fTUI > .size14-3fJ-ot.title-338goq {
+	color: black;
+}
+
+.panel-2ZFCRb.activityPanel-9icbyU > .body-1FrnJD > .actions-zk2vB_ > .disabledButtonWrapper-2Oz3aY > button, .panel-2ZFCRb.activityPanel-9icbyU > .body-1FrnJD > .actions-zk2vB_ > button {
+	color: black !important;
+}
