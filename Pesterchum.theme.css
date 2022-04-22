@@ -489,7 +489,7 @@ div.status-12NUUC > svg > rect {
 
 /* voice chat buttons */
 .button-12Fmur[aria-label="Noise Suppression powered by Krisp"], .button-12Fmur[aria-label="Disconnect"] {
-	color: black;
+	color: black !important;
 }
 
 .buttonIcon-2Zsrs2.withText-2iJppd {
@@ -507,6 +507,15 @@ div.status-12NUUC > svg > rect {
 	border-color: var(--p-secondary) !important;
 	height: 36px;
 	color: black;
+}
+
+/* channel list fixes */
+.containerDefault-YUSmu3 > .iconVisibility-vptxma.wrapper-NhbLHG > .content-1gYQeQ > .children-1MGS9G > div:hover > svg, .containerDefault-YUSmu3 > div > .iconVisibility-vptxma.wrapper-NhbLHG > .content-1gYQeQ > .children-1MGS9G > div:hover > svg {
+	color: white;
+}
+
+.containerDefault-YUSmu3 > .iconVisibility-vptxma.wrapper-NhbLHG > .content-1gYQeQ > .children-1MGS9G > div > svg, .containerDefault-YUSmu3 > div > .iconVisibility-vptxma.wrapper-NhbLHG > .content-1gYQeQ > .children-1MGS9G > div > svg {
+	transition: color 0.15s;
 }
 
 /* screenshare colour fixes */
