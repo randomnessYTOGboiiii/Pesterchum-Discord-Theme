@@ -752,6 +752,11 @@ ul[aria-label="Direct Messages"] > li > div {
 	width: 257px;
 }
 
+/* right bar fix for clicking on names */
+.member-2gU6Ar.container-1oeRFJ.selected-1-Z6gm > .layout-1qmrhw > .content-1U25dZ > .nameAndDecorators-3ERwy2 > .name-3Vmqxm > .roleColor-nA7BqX.desaturateUserColors-1O-G89 {
+	color: #5E6772;
+}
+
 /* game activity bottom left */
 .gameWrapper-2TFy7F.clickableGameWrapper-1xHQQL > .info-88fTUI > .size14-3fJ-ot.title-338goq {
 	color: black;
