@@ -488,7 +488,7 @@ div.status-12NUUC > svg > rect {
 }
 
 /* voice chat buttons */
-.button-12Fmur[aria-label="Noise Suppression powered by Krisp"], .button-12Fmur[aria-label="Disconnect"] {
+.button-12Fmur[aria-label="Noise Suppression powered by Krisp"], .button-12Fmur[aria-label="Disconnect"], .button-12Fmur[aria-label="Exit Quietly"] {
 	color: black !important;
 }
 
@@ -768,4 +768,9 @@ ul[aria-label="Direct Messages"] > li > div {
 
 .panel-2ZFCRb.activityPanel-9icbyU > .body-1FrnJD > .actions-zk2vB_ > .disabledButtonWrapper-2Oz3aY > button, .panel-2ZFCRb.activityPanel-9icbyU > .body-1FrnJD > .actions-zk2vB_ > button {
 	color: black !important;
+}
+
+/* user area in the bottom left (pfp, name, status, mute/deafen/settings area) */
+.sidebar-1tnWFu > .panels-3wFtMD[aria-label="User area"] > .container-YkUktl {
+	justify-content: center;
 }
