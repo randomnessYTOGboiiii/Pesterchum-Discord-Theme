@@ -325,6 +325,11 @@
 .winButton-3UMjdg {
 	color: white;
 }
+
+.sidebar-1tnWFu > .container-1NXEtd > .container-1-ERn5 > .animatedContainer-2laTjx > .bannerImage-ubW8K-, .bannerImage-ubW8K- > .bannerImg-2PzH6z {
+	width: 272px;
+}
+
 /*vc*/
  .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .username-vAneIW, .usernameSpeaking-3FKv6H {
 	color: var(--alt-active);
@@ -343,6 +348,15 @@
 	border-color: var(--p-secondary);
 }
 
+/* call */
+.callContainer-HtHELf .iconWrapper-2awDjA > svg, .callContainer-HtHELf .iconWrapper-2awDjA > svg > foreignObject > svg {
+	color: white !important;
+}
+
+.callContainer-HtHELf .iconWrapper-2awDjA > svg > foreignObject > svg {
+	
+}
+
 /* certain text changed to white for readability */
 h1.name-3Uvkvr, div.name-2m3Cms, svg.button-2BMPJJ, svg.linkButtonIcon-7rsZcu {
 	color: white;
@@ -354,7 +368,12 @@ span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
 }
 
 /* gets rid of the explore public servers button (you can put this back if you like it) */
-div.circleIconButton-1VxDrg[aria-label="Explore Public Servers"] {
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > .listItem-3SmSlK:nth-child(6) {
+	display: none;
+}
+
+/* gets rid of the nitro button at the bottom of the server list */
+.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > .listItem-3SmSlK:nth-child(4) {
 	display: none;
 }
 
