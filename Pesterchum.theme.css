@@ -469,10 +469,7 @@ h2.privateChannelsHeaderContainer-1UWASm > span.headerText-1qIDDT:after {
 }
 
 div.status-12NUUC > svg {
-	background-color: black;
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
+	
 }
 
 div.status-12NUUC > svg > rect {
@@ -571,7 +568,7 @@ div.status-12NUUC > svg > rect {
 	border-color: var(--p-primary);
 }
 
-rect.pointerEvents-9SZWKj[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
 	fill: var(--p-teriary);
 }
 
