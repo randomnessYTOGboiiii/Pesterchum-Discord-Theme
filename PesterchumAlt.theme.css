@@ -1,7 +1,7 @@
 /**
  * @name Pesterchum Discord Alternative
  * @author Winter Clover#8124 + luminaryFlowers & adi
- * @version 0.6.4
+ * @version 0.6.5
  * @description Emulates the look and feel of the chat clients shown within the webcomic Homestuck. Uses Courier New for additional language compatibility.
 */
 
@@ -571,7 +571,7 @@ div.status-12NUUC > svg > rect {
 	border-color: var(--p-primary);
 }
 
-.avatar-2Vndt_ > .mask-1FEkla.svg-2azL_l > rect.pointerEvents-9SZWKj[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+rect.pointerEvents-9SZWKj[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
 	fill: var(--p-teriary);
 }
 
