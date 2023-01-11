@@ -1,7 +1,7 @@
 /**
  * @name Pesterchum Discord Alternative
  * @author Winter Clover#8124 + luminaryFlowers & adi
- * @version 0.6.5
+ * @version 0.6.6
  * @description Emulates the look and feel of the chat clients shown within the webcomic Homestuck. Uses Courier New for additional language compatibility.
 */
 
@@ -369,13 +369,10 @@ span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
 
 /* gets rid of the explore public servers button (you can put this back if you like it) */
 .scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > .listItem-3SmSlK:nth-child(6) {
-	display: none;
+	
 }
 
 /* gets rid of the nitro button at the bottom of the server list */
-.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > .listItem-3SmSlK:nth-child(4) {
-	display: none;
-}
 
 /* smooth transition for background color */
 .interactive-1vLZ_I, .content-1gYQeQ {
@@ -405,12 +402,17 @@ span.text-3S7XCz, svg.ellipsis-1e7x0D > g {
 	color: rgba(180, 180, 180, 1);
 }
 
+/* top bar colour correction */
+.container-ZMc96U h1, .container-ZMc96U p, .container-ZMc96U span {
+	color: black;
+}
+
 /* friends -> chums! */
-div[aria-controls="add_friend-tab"]:after {
+div[aria-label="Add Friend"]:after {
 	content: "Add Chum" !important;
 }
 
-div[aria-controls="add_friend-tab"] > span {
+div[aria-label="Add Friend"] > span {
 	display: none;
 }
 
@@ -476,7 +478,7 @@ div.status-12NUUC > svg > rect {
 	margin: 0 auto;
 }
 
-.chat-2ZfjoI > .title-31SJ6t.container-ZMc96U.themed-Hp1KC_ > .children-3xh0VB > h3 {
+.chat-2ZfjoI > .title-31SJ6t.container-ZMc96U.themed-Hp1KC_ > .children-3xh0VB h3, .title-31SJ6t.container-ZMc96U.themed-Hp1KC_ h2, .title-31SJ6t.container-ZMc96U.themed-Hp1KC_ .input-1nrc5P, .title-31SJ6t.container-ZMc96U.themed-Hp1KC_ {
 	color: black;
 }
 
@@ -568,8 +570,12 @@ div.status-12NUUC > svg > rect {
 	border-color: var(--p-primary);
 }
 
-rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"] {
+rect[fill="#faa61a"], rect[mask="url(#bf5b52d3-242a-41ff-b424-4c4f52e733a4)"] {
 	fill: var(--p-teriary);
+}
+
+.headerContent-2SNbie.primaryInfo-2ocY3v {
+	color: white;
 }
 
 .bodyInnerWrapper-2bQs1k {
@@ -825,4 +831,9 @@ ul[aria-label="Direct Messages"] > li > div {
 /* user area in the bottom left (pfp, name, status, mute/deafen/settings area) */
 .sidebar-1tnWFu > .panels-3wFtMD[aria-label="User area"] > .container-YkUktl {
 	justify-content: center;
+}
+
+/* something idk */
+.lineClamp1-1iDPU7.text-md-semibold-3xVVGu.name-3Uvkvr {
+	color: white;
 }
