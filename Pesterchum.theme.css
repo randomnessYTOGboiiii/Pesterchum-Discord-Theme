@@ -554,6 +554,10 @@ div.status-12NUUC > svg > rect {
 	color: #4F5660;
 }
 
+.sidebar-1tnWFu > .panels-3wFtMD > .wrapper-3Hk9OB > .container-1zzFcN {
+	background-color: var(--p-primary);
+}
+
 /* channel list fixes */
 .containerDefault-YUSmu3 > .iconVisibility-vptxma.wrapper-NhbLHG > .content-1gYQeQ > .children-1MGS9G > div:hover > svg, .containerDefault-YUSmu3 > div > .iconVisibility-vptxma.wrapper-NhbLHG > .content-1gYQeQ > .children-1MGS9G > div:hover > svg {
 	color: white;
@@ -854,5 +858,9 @@ ul[aria-label="Direct Messages"] > li > div {
 
 /* something idk */
 .lineClamp1-1iDPU7.text-md-semibold-3xVVGu.name-3Uvkvr {
+	color: white;
+}
+
+.headerWrapper-1ULEPv > section h1, .headerWrapper-1ULEPv > section p, .headerWrapper-1ULEPv > section svg {
 	color: white;
 }
