@@ -33,6 +33,10 @@
     --alt-modifier-active: rgba(79,84,92,0.24);
     --alt-modifier-selected: rgba(79,84,92,0.32);
     --alt-modifier-accent: hsla(0,0%,100%,0.06);
+	
+	--bg-overlay-2: rgba(0,0,0,1);
+	--bg-overlay-3: rgba(0,0,0,1);
+	--bg-overlay-5: var(--p-primary);
 
 	--on-black-color: rgba(40, 40, 40, 1);
 }
@@ -111,6 +115,11 @@
  .members-3WRCEx, .members-3WRCEx>div {
 	background-color: var(--background-primary);
 }
+
+.member-2gU6Ar.member-48YF_l {
+	background-color: var(--background-primary);
+}
+
  .hiddenMembers-8kpYM0, .membersWrap-3NUR2t{
 	background-color: var(--p-primary);
 }
@@ -189,6 +198,12 @@
 .scroller-3X7KbA {
 	background-color: var(--p-primary);
 }
+
+/* WAH WAH WAH */
+.scroller-WSmht3 {
+	background-color: rgba(0,0,0,0);
+}
+
  .container-1NXEtd {
 	background: black;
 	margin: 8px;
