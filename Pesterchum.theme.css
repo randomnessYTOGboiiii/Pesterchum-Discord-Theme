@@ -345,6 +345,14 @@
 	width: 272px;
 }
 
+aside.container-1oAagU {
+	background-color: var(--background-primary);
+}
+
+.searchBar-jGtisZ {
+	background-color: white;
+}
+
 /*vc*/
  .listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .username-vAneIW, .usernameSpeaking-3FKv6H {
 	color: var(--alt-active);
